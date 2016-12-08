@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImageManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                           xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                           xmlns="http://schemas.microsoft.com/VisualStudio/ImageManifestSchema/2014">
+  <Symbols>
+    <String Name="Resources" Value="/CpsSample;Component/" />
+    <Guid Name="Images1Guid" Value="242316b4-d103-4b4f-8cfc-b0d369edf91d" />
+    <ID Name="ProjectIcon" Value="0" />
+  </Symbols>
+  <Images>
+    <Image Guid="$(Images1Guid)" ID="$(ProjectIcon)">
+      <Source Uri="$(Resources)/Images/Images1ProjectIcon.xaml" />
+      <Source Uri="$(Resources)/Images/Images1ProjectIcon.png" >
+        <Size Value="16" />
+      </Source>  
+    </Image>
+  </Images>
+  <ImageLists />
+</ImageManifest>
